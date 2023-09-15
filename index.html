@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>St. Louis Blues News</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Raleway:wght@300;600&family=Roboto+Mono:wght@400;700&family=Roboto:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Raleway:wght@300;600&family=Roboto+Mono:wght@400;700&family=Roboto:ital,wght@0,500;1,700&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <header id="main-header">
+      <h1>The St. Louis Blues News</h1>
+        <img id="logo"
+            src="images/logo-tn.jpg"
+            alt="St. Louis Blues Logo" />
+    </header>
+    <main>
+      <div id="main-text">
+        <h2>Newsletter Coming Soon!</h2>
+      </div>
+
+      <div id="left-side">
+        <p>
+          We wanna move the puck north south not east west. At the end of the day. We wanna move the puck north south not east west. Puck luck. Details make good hockey players. They've got jam.
+        </p>
+        <p>
+          We wanna move the puck north south not east west. At the end of the day. We wanna move the puck north south not east west. Puck luck. Details make good hockey players. They've got jam.
+        </p>
+        <p>
+          We wanna move the puck north south not east west. At the end of the day. We wanna move the puck north south not east west. Puck luck. Details make good hockey players. They've got jam.
+        </p>
+        <p>
+          We wanna move the puck north south not east west. At the end of the day. We wanna move the puck north south not east west. Puck luck. Details make good hockey players. They've got jam.
+        </p>        
+      </div>
+      <div id="right-side">
+        <div id="formBox">
+          <form id="contact-form">
+            <legend>
+              &nbsp;&nbsp; Sign Up For Our Newsletter Now!!!
+            </legend>
+            <div>
+              <label for="fname">First Name*</label>
+              <input type="text"
+                     id="fname"
+                     name="fname">
+            </div>
+
+            <div>
+              <label for="lname">Last Name*</label>
+              <input type="text"
+                     id="lname"
+                     name="lname">
+            </div>
+
+            <div>
+              <label for="email">Email Addr*</label>
+              <input type="email"
+                     id="email"
+                     name="email">
+            </div>
+
+            <div>
+              <label for="email">Phone #</label>
+              <input type="tel"
+                     id="phone"
+                     name="phone">
+            </div>
+
+            <div>
+              <p id="required">
+                <em>* - Required</em>
+              </p>
+              <input type="submit" value="Subscribe Now!">
+            </div>
+          </form>
+        </div>
+
+        <blockquote>
+          "When hell freezes over, I'll play hockey there too."<br>
+          - Author Unknown
+        </blockquote>
+
+      </div>
+    </main>
+    <div class="clearFix"></div>
+
+    <footer id="main-footer">
+      <p>
+        Copyright &copy; 2023 - Jeff Scott
+      </p>
+      <input type="button"
+             value="Current ScreenSize"
+             onclick="displayCurrentScreenSize();" />
+    </footer>
+  </div>
+
+  <script>
+    function displayCurrentScreenSize()
+    {
+      let w = window.innerWidth;
+      let h = window.innerHeight;
+      alert("Width: " + w +
+            "\nHeight: " + h);
+    }
+  </script>
+</body>
+</html>
